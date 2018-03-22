@@ -12,7 +12,7 @@ Time spent: 12 hours spent in total
     - Tested in version: 3.9.2
     - Fixed in version: ?
   - [x] GIF Walkthrough: 
-	<img srg='cross-site-scripting.gif'/>
+	![gif](cross-site-scripting.gif)
   - [x] Steps to recreate: Write a comment. Have the comment approved by the site administrator. After initial comment approval, subsequent
 	comments do not need administrator approval. Insert a new comment with an html event.
   - [ ] Affected source code: 
@@ -23,7 +23,7 @@ Time spent: 12 hours spent in total
     - Tested in version: 3.9.2
     - Fixed in version: ?
   - [x] GIF Walkthrough: 
-	<img srg='media-file-xss.gif'/>
+	![gif](media-file-xss.gif)
   - [x] Steps to recreate: Save a photo over 2MB. Upload the photo into the Upload New Media in the admin panel.
   - [ ] Affected source code: 
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -33,7 +33,7 @@ Time spent: 12 hours spent in total
     - Tested in version: 3.9.2
     - Fixed in version: ?
   - [x] GIF Walkthrough:
-	<img srg='DOS.gif'/> 
+	![gif](DOS.gif)
   - [x] Steps to recreate: Visit Barak Tawily's [proof of concept] (https://baraktawily.blogspot.fr/2018/02/how-to-dos-29-of-world-wide-websites.html). The author provides a tool called [doser.py] (https://github.com/quitten/doser.py) that provides repeated requests to the server. Update doser.py to the target website. 
   - [x] Affected source code: 
     - [Link 1](https://github.com/WordPress/WordPress/blob/master/wp-includes/script-loader.php)
